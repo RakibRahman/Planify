@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "ktjx0kry",
+      "checked": false,
+      "task": "Learn React Context Api"
+    },
+    {
+      "id": "ktjxdpul",
+      "checked": true,
+      "task": "Test Done"
+    },
+    {
+      "id": "ktn2a8aa",
+      "checked": false,
+      "task": "Do Study"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+.editForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0;
+  transition: all 0.1s ease-in;
+}
+.show {
+  visibility: visible;
+}
+.hide {
+  visibility: hidden;
+}
+.editLabel {
+  font-size: 10px;
+}
+.editInput {
+  width: 320px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+  resize: none;
+  padding: 0.1rem;
+  outline: none;
+  border: none;
+  box-shadow: 3px 2px 1px red;
+  caret-color: slateblue;
+  background: #fff;
+  color: #000;
+}
