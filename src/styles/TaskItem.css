@@ -36,7 +36,7 @@ ul li:nth-child(4n + 3) {
   background-color: #1da2da;
 }
 ul li:nth-child(4n + 4) {
-  background-color: #dddf28;
+  background-color: #137175;
 }
 ul li:nth-child(4n + 5) {
   background-color: #e9223b;
@@ -48,7 +48,7 @@ ul li:nth-child(4n + 7) {
   background-color: #dd06f0;
 }
 ul li:nth-child(4n + 8) {
-  background-color: #137175;
+  background-color: #f14e0d;
 }
 ul li:nth-child(4n + 9) {
   background-color: #d19828;
