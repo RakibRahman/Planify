@@ -1,23 +1,15 @@
-if (a.task < b.task) return 1; // z-a
-// if (a.task > b.task) return 1; // usual
-if (a.task < b.task) return -1; a-z
+# Planify
 
-  const fetchData = async () => {
-    try {
-      const response = await fetch(API_URL);
-      if (!response.ok) throw Error("fetching data is interrupted");
-      const tasks = await response.json();
-      console.log(tasks);
-      setItems(tasks);
-      setError(null);
-    } catch (err) {
-      setError(err.message);
-    } finally {
-      setLoading(false);
-    }
-  };
-  useEffect(() => {
-    setTimeout(() => {
-      fetchData();
-    }, 2000);
-  }, []);
+A To-Do app built with React.js with tons of features.
+
+## Planify Features:
+
+- Add,update,delete your plan list.
+- Search for particular plan.
+- Sort your list ascending,descending,completed or unfinished order.
+- Added Date.
+- Shows total plans & how many to complete.
+
+> This app built with CRUD capable API.
+
+# ScreenShot:
