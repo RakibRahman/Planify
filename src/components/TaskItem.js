@@ -23,6 +23,10 @@ function TaskItem({
               className={item.checked ? "active" : "label"}
             >
               {item.task}
+              <br />
+              <span style={{ fontSize: "12px", color: "#f0096e" }}>
+                📆{item.updated}
+              </span>
             </label>
           </span>
           <div>

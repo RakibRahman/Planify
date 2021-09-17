@@ -29,11 +29,11 @@ ul li:nth-child(4n + 1) {
   background-color: #571ebb;
 }
 ul li:nth-child(4n + 2) {
-  background-color: #a8ccc4;
+  background-color: #189d25;
   color: #fff;
 }
 ul li:nth-child(4n + 3) {
-  background-color: #4fdc25;
+  background-color: #1da2da;
 }
 ul li:nth-child(4n + 4) {
   background-color: #dddf28;

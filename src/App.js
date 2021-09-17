@@ -82,6 +82,7 @@ function App() {
       id: uniqid(),
       checked: false,
       task,
+      updated: new Date().toDateString(),
     };
     const taskList = [...items, newTask];
     setItems(taskList);
@@ -105,12 +106,11 @@ function App() {
       }
       return item;
     });
+
     setItems(taskList);
     setTextArea(!textArea);
 
-    console.log(textArea);
     const itemsUpdated = taskList.filter((item) => item.id === id);
-
     const updateOptions = {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
