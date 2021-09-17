@@ -3,17 +3,11 @@ import React from "react";
 function SortItems({ items, setItems }) {
   const onChangeSort = (e) => {
     if (e.target.value === "a-z") {
-      const taskList = [...items].sort((a, b) => {
-        if (a.task > b.task) return 1;
-        return 0;
-      });
+      const taskList = [...items].sort((a, b) => a.task.localeCompare(b.task));
       setItems(taskList);
     }
     if (e.target.value === "z-a") {
-      const taskList = [...items].sort((a, b) => {
-        if (a.task < b.task) return 1;
-        return 0;
-      });
+      const taskList = [...items].sort((a, b) => b.task.localeCompare(a.task));
       setItems(taskList);
     }
     if (e.target.value === "completed") {
