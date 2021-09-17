@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 import uniqid from "uniqid";
 import "./styles/App.css";
@@ -32,7 +33,6 @@ function App() {
         const response = await fetch(API_URL);
         if (!response.ok) throw Error("fetching data is interrupted");
         const tasks = await response.json();
-        console.log(tasks);
         setItems(tasks);
         setError(null);
       } catch (err) {
@@ -168,6 +168,7 @@ function App() {
           />
         )}
       </main>
+
       {!error && (
         <footer className="total">
           Total {items.length}

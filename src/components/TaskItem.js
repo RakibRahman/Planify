@@ -24,7 +24,13 @@ function TaskItem({
             >
               {item.task}
               <br />
-              <span style={{ fontSize: "12px", color: "#f0096e" }}>
+              <span
+                style={{
+                  fontSize: "12px",
+                  color: "#fdfdfd",
+                  padding: "0.2rem 0rem",
+                }}
+              >
                 📆{item.updated}
               </span>
             </label>
