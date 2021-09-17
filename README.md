@@ -10,6 +10,8 @@ A To-Do app built with React.js with tons of features.
 - Added Date.
 - Shows total plans & how many to complete.
 
-> This app built with CRUD capable API.
+> This app is built with CRUD capable API.
 
 # ScreenShot:
+
+![ss](SS.png)
